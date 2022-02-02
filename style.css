@@ -1,0 +1,115 @@
+body {
+  background-color: rgba(230,230,230,0.5);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2;
+  color: rgba(70,70,70,1);
+}
+
+/* headers */
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+  color: rgba(50,50,50,1);
+  font-weight: lighter;
+  line-height: 1;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: larger;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.8;
+}
+
+/* Lists */
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer li {
+  display: inline-block;
+  font-size: 40px;
+  padding: 0 10px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: rgb(255, 131, 135);
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+/* ------------------------------------------------ */
+/* CLASS - ELEMENTS */
+
+/* Container - media queries */
+.container {
+  width: 1500px;
+  margin: 30px auto;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 600px;
+  }
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  margin: 30px 0;
+  padding: 5px 50px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 7px 7px 10px rgba(255, 224, 225, 0.6);
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 250px;
+  margin: 50px auto 25px;
+  border-radius: 5px;
+  padding: 10px 0;
+  line-height: 1.5;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px rgba(255, 224, 225, 0.6);
+}
+
+.img-profile {
+  width: 150px;
+}
+
+.highlight-red {
+  background: rgba(255, 224, 225, 0.6);
+  padding: 0 5px;
+}
+
